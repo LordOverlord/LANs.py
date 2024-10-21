@@ -1,5 +1,5 @@
 scapy
 twisted>=24.7.0rc1
 requests>=2.32.2
-setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools~=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
 certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
